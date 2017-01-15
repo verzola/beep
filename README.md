@@ -12,7 +12,7 @@ $ sudo modprobe pcspkr
 ```
 
 # notes
-notes range from C1 to B8. (#) sharp is represented by the letter S because # is not allowed in PHP, so C#4 becomes CS4.
+notes range from C1 to B8. sharp  (#) is represented by the letter S because # is not allowed in PHP, so C#4 becomes CS4.
 
 # examples
 ```php
