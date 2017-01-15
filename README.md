@@ -1,7 +1,7 @@
 # beep
 beeps your motherboard with php
 
-# pre-requisites
+## pre-requisites
 - install beep:
 ```sh
 $ sudo apt-get install beep
@@ -11,10 +11,10 @@ $ sudo apt-get install beep
 $ sudo modprobe pcspkr
 ```
 
-# notes
+## notes
 notes range from C1 to B8. sharp  (#) is represented by the letter S because # is not allowed in PHP, so C#4 becomes CS4.
 
-# examples
+## examples
 ```php
 <?php
 use Beep\Beep;
@@ -54,6 +54,6 @@ Beep::play([
 ]);
 ```
 
-# what can I use this for?
+## what can I use this for?
 whatever your creativity allows!
 in my company we use it to notify status for jenkins builds
