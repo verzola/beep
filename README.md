@@ -17,6 +17,9 @@ notes range from C1 to B8. sharp  (#) is represented by the letter S because # i
 ## examples
 ```php
 <?php
+
+require __DIR__ . '/vendor/autoload.php';
+
 use Beep\Beep;
 use Beep\Note;
 
