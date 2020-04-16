@@ -85,5 +85,4 @@ Beep::play([
 ```
 
 ## what can I use this for?
-whatever your creativity allows!
-in my company we use it to notify status for jenkins builds
+Whatever your creativity allows! I use it to notify status for jenkins builds
