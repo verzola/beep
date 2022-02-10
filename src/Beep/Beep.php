@@ -7,11 +7,11 @@ class Beep
     const DEFAULT_FREQUENCY = Note::A4;
     const DEFAULT_LENGTH = 50;
 
-    public function play()
+    public static function play()
     {
         $args = func_get_args();
 
-        if (is_array($args[0])) {
+        if (isset($args[0]) && is_array($args[0])) {
             foreach ($args[0] as $key => $value) {
                 if (!$key) {
                     $frequency = $value;
